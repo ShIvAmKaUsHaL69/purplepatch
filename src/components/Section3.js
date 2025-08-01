@@ -33,8 +33,11 @@ function Section3() {
 
       <h1 className="uppercase sm:leading-[-200px]  text-[15vw] md:text-[10vw] font-bold text-center ">This Is <br/>about you<span className="text-pink-600">.</span></h1>
       </div>
+
+
+
+
     </div>
-    
   );
 }
 

@@ -35,7 +35,7 @@ const Section2 = () => {
   return (
     <div className="lg:h-[70vh] h-[50vh] w-full bg-pink-600 flex items-center justify-center">
       <motion.h1
-        className="text-white text-5xl lg:text-8xl font-bold text-center w-full lg:w-[55vw] h-full flex items-center justify-center"
+        className="text-white text-5xl lg:text-8xl font-bold text-center w-full lg:w-[55vw]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
