@@ -23,7 +23,7 @@ const Hero = () => {
   return (
     <div className='relative h-screen md:h-[160vh] w-full flex'>
       <div className={`h-[120vh] w-[6%] text-white flex items-center justify-center transition-all duration-500 ease-in-out`}>
-        <h1 className='-rotate-90 w-full whitespace-nowrap font bold opacity-45 text-2xl my-auto mx-auto'>
+        <h1 className='-rotate-90 w-full whitespace-nowrap font-bold opacity-45 text-2xl my-auto mx-auto'>
           Commercial Video Production
         </h1>
       </div>
@@ -75,8 +75,8 @@ const Hero = () => {
 
 
       </div>
-      <div className='absolute top-1/2 md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[60%] h-[20%]  flex justify-center items-center'>
-        <p className='font-bold text-center text-[10vw] md:text-[12vw] lg:text-[10vw] uppercase leading-[0.8] tracking-tighter'>
+      <div className='absolute top-1/2 md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[80%] h-[20%]  flex justify-center items-center'>
+        <p className='font-extrabold text-center text-[18vw] md:text-[12vw] lg:text-[10vw] uppercase leading-[0.8] tracking-tighter'>
           this isn<span className='text-pink-600'>’</span>t <br /> about us
         </p>
       </div>

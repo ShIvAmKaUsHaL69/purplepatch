@@ -18,11 +18,11 @@ export default function PortfolioSection() {
     };
 
     return (
-        <div className="w-full min-h-screen flex flex-col justify-around items-center px-4  lg:p-[200px] lg:gap-[30vh]">
+        <div className="w-full min-h-screen flex flex-col justify-evenly items-center px-4  lg:p-[200px] lg:gap-[30vh] overflow-hidden">
             <div className="w-full max-w-[1200px] flex flex-col lg:flex-row items-center justify-center relative">
 
                 {/* Text */}
-                <h1 className="font-bold text-4xl sm:text-5xl lg:text-7xl text-center lg:text-center lg:w-[70%] z-10">
+                <h1 className="font-bold text-5xl sm:text-5xl lg:text-7xl text-center lg:text-center lg:w-[70%] z-10">
                     We’re not going to show you <span className="italic">our portfolio</span>
                     <span className="text-pink-600">.</span>
                 </h1>
@@ -31,7 +31,7 @@ export default function PortfolioSection() {
 
                 {/* Video / Image section */}
                 {isMobileOrTablet ? (
-                    <div className="w-[100vw] mt-6 flex justify-center z-10">
+                    <div className="w-[150vw] flex justify-center z-10">
                         <img
                             src="/images/video-thumb_01.jpg"
                             alt="Thumbnail"
@@ -82,14 +82,16 @@ export default function PortfolioSection() {
                     src="/images/text-round-portfolio.svg"
                     alt="Circular SVG"
                     className="
-                                w-[200px] 
+                                w-[300px] 
                                 sm:w-[350px] 
                                 lg:w-[35%] 
                                 mt-10 
                                 lg:mt-0 
                                 lg:absolute 
                                 lg:left-[60%] 
-                                translate-y-[-150px] 
+                                translate-y-[-200px] 
+                                
+                                md:translate-y-[-150px] 
                                 lg:translate-y-0
                                 
                             "
@@ -102,14 +104,14 @@ export default function PortfolioSection() {
             <div className="w-full max-w-[1200px] flex flex-col lg:flex-row-reverse items-center justify-center relative">
 
                 {/* Text */}
-                <h1 className="font-bold text-4xl sm:text-5xl lg:text-7xl text-center lg:text-center lg:w-[80%] lg:translate-x-20 z-10">
+                <h1 className="font-bold text-5xl sm:text-5xl lg:text-7xl text-center lg:text-center lg:w-[80%] lg:translate-x-20 z-10">
                     We’re not going to show you <span className="italic">our portfolio</span>
                     <span className="text-pink-600">.</span>
                 </h1>
 
                 {/* Video / Image section */}
                 {isMobileOrTablet ? (
-                    <div className="w-[100vw] mt-6 flex justify-center z-10">
+                    <div className="w-[150vw] mt-6 flex justify-center z-10">
                         <img
                             src="/images/video-thumb_01.jpg"
                             alt="Thumbnail"
@@ -118,7 +120,7 @@ export default function PortfolioSection() {
                     </div>
                 ) : (
                     <motion.div
-                        className="w-[60%] absolute lg:left-0 [perspective:1000px] z-10"
+                        className="md:w-[60%] absolute lg:left-0 [perspective:1000px] z-10"
                         initial={{ opacity: 0, skewY: 10 }}
                         animate={hasHoveredBottom ? { opacity: 1, skewY: 0 } : {}}
                         whileHover={{
@@ -160,14 +162,15 @@ export default function PortfolioSection() {
                     src="/images/text-round-portfolio.svg"
                     alt="Circular SVG"
                     className="
-                        w-[200px] 
+                        w-[300px] 
                         sm:w-[350px] 
                         lg:w-[35%] 
                         mt-10 
                         lg:mt-0 
                         lg:absolute 
                         lg:left-0 
-                        translate-y-[-150px] 
+                        translate-y-[-200px]
+                        md:translate-y-[-150px] 
                         lg:translate-y-0
                         "
                     style={{ rotate }}
