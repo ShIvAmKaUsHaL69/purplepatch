@@ -61,7 +61,7 @@ export default function Section9() {
               className="min-w-[300px] h-[300px] mr-6 flex-shrink-0"
               onClick={() => handleTap(index)}
             >
-              <Image
+              <img
                 src={src}
                 alt={`carousel-img-${index}`}
                 width={400}
