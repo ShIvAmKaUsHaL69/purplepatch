@@ -21,24 +21,30 @@ export default function Section9() {
   const [tapped, setTapped] = useState({});
   const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
-  useEffect(() => {
-    if (isMobile) return; // disable animation on mobile
+useEffect(() => {
+  if (isMobile) return;
 
-    const totalImages = images.length * 1000;
-    const maxOffset = IMAGE_WIDTH * totalImages;
+  const duplicatedImagesCount = images.length * 4; // since you're spreading it 4 times
+  const totalWidth = IMAGE_WIDTH * duplicatedImagesCount;
 
-    const interval = setInterval(() => {
-      xRef.current -= IMAGE_WIDTH;
-      if (Math.abs(xRef.current) >= maxOffset / 2) {
-        xRef.current = 0;
-        controls.set({ x: 0 });
-      } else {
-        controls.start({ x: xRef.current });
-      }
-    }, 1500);
+  const interval = setInterval(() => {
+    xRef.current -= IMAGE_WIDTH;
 
-    return () => clearInterval(interval);
-  }, [controls, isMobile]);
+    // If the xRef has moved past half the scrollable width, reset instantly
+    if (Math.abs(xRef.current) >= totalWidth / 2) {
+      xRef.current = 0;
+      controls.set({ x: 0 }); // instantly reset without animation
+    }
+
+    controls.start({
+      x: xRef.current,
+      transition: { duration: 0.8, ease: "easeInOut" }, // smooth slide
+    });
+  }, 1500);
+
+  return () => clearInterval(interval);
+}, [controls, isMobile]);
+
 
   const handleTap = (index) => {
     setTapped((prev) => ({
