@@ -5,12 +5,12 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 const images = [
-  "/images/bxfilms-10-1.jpg",
-  "/images/bxfilms-10-4.jpg",
-  "/images/bxfilms-1-4.jpg",
-  "/images/bxfilms-9.jpg",
-  "/images/bxfilms-6.jpg",
-  "/images/bxfilms-1-3.jpg",
+  "images/bxfilms-10-1.jpg",
+  "images/bxfilms-10-4.jpg",
+  "images/bxfilms-1-4.jpg",
+  "images/bxfilms-9.jpg",
+  "images/bxfilms-6.jpg",
+  "images/bxfilms-1-3.jpg",
 ];
 
 const IMAGE_WIDTH = 400 + 24;
@@ -77,7 +77,7 @@ export default function Section9() {
       </div>
 
       <img
-        src="/images/bg-film.png"
+        src="images/bg-film.png"
         alt="background"
         className="absolute top-0 left-0 w-full h-full object-fill -z-10"
       />

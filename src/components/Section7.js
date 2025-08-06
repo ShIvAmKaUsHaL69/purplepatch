@@ -10,21 +10,21 @@ const items = [
     title: "WE DO CONCEPTS.",
     description:
       "We do concept to completion, so that we’re tracking with you from start to finish",
-    image: "/images/bxfilms-7.jpg",
+    image: "images/bxfilms-7.jpg",
     direction: "rightToLeft",
   },
   {
     title: "WE DO BRAND.",
     description:
       "We do brand, product, and documentary-style videos to tell your best story the best way",
-    image: "/images/bxfilms-8.jpg",
+    image: "images/bxfilms-8.jpg",
     direction: "leftToRight",
   },
   {
     title: "WE’RE EXPERTS.",
     description:
       "We’re experts at live-action and animation, so your story can be told in whatever style will help it thrive.",
-    image: "/images/bxfilms-9.jpg",
+    image: "images/bxfilms-9.jpg",
     direction: "rightToLeft",
   },
 ];
@@ -83,7 +83,7 @@ function ScrollAnimatedItem({ item, index }) {
 
       {/* Image */}
       <div className="w-full md:w-1/2">
-        <Image
+        <img
           src={item.image}
           alt={item.title}
           width={800}

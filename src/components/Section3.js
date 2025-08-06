@@ -23,7 +23,7 @@ function Section3() {
           className="bg-white overflow-hidden shadow-xl lg:h-[100vh] h-[40vh] sm:h-[50vh] flex justify-center items-center"
         >
           <img
-            src="/images/bxfilms-3.jpg"
+            src="images/bxfilms-3.jpg"
             alt="Animated"
             className="w-full h-full object-cover object-center"
           />

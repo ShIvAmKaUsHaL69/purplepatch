@@ -33,7 +33,7 @@ export default function PortfolioSection() {
                 {isMobileOrTablet ? (
                     <div className="w-[150vw] flex justify-center z-10">
                         <img
-                            src="/images/video-thumb_01.jpg"
+                            src="images/video-thumb_01.jpg"
                             alt="Thumbnail"
                             className="w-[60%] object-cover"
                         />
@@ -58,7 +58,7 @@ export default function PortfolioSection() {
                     >
                         {!isPlaying && (
                             <motion.img
-                                src="/images/video-thumb_01.jpg"
+                                src="images/video-thumb_01.jpg"
                                 alt="Video thumbnail"
                                 onClick={handlePlay}
                                 className="cursor-pointer w-full h-auto object-cover"
@@ -79,7 +79,7 @@ export default function PortfolioSection() {
                 )}
                 {/* Circular SVG */}
                 <motion.img
-                    src="/images/text-round-portfolio.svg"
+                    src="images/text-round-portfolio.svg"
                     alt="Circular SVG"
                     className="
                                 w-[300px] 
@@ -113,7 +113,7 @@ export default function PortfolioSection() {
                 {isMobileOrTablet ? (
                     <div className="w-[150vw] mt-6 flex justify-center z-10">
                         <img
-                            src="/images/video-thumb_01.jpg"
+                            src="images/video-thumb_01.jpg"
                             alt="Thumbnail"
                             className="w-[60%] object-cover"
                         />
@@ -137,7 +137,7 @@ export default function PortfolioSection() {
                     >
                         {!isPlaying && (
                             <motion.img
-                                src="/images/BX-2203C_Logos-2048x1549.jpeg"
+                                src="images/BX-2203C_Logos-2048x1549.jpeg"
                                 alt="Video thumbnail"
                                 onClick={handlePlay}
                                 className="cursor-pointer w-full h-full object-cover"
@@ -159,7 +159,7 @@ export default function PortfolioSection() {
 
                 {/* Circular SVG */}
                 <motion.img
-                    src="/images/text-round-portfolio.svg"
+                    src="images/text-round-portfolio.svg"
                     alt="Circular SVG"
                     className="
                         w-[300px] 

@@ -7,19 +7,19 @@ const videoData = [
     title: "Product Videos",
     description:
       "Tell a story as compelling and world-changing as your product or service.",
-    image: "/images/product-videos.jpg",
+    image: "images/product-videos.jpg",
   },
   {
     title: "Brand Videos",
     description:
       "Share your journey with the world through a brand film that captures your unique vision.",
-    image: "/images/brand-videos.jpg",
+    image: "images/brand-videos.jpg",
   },
   {
     title: "Agency Partnerships",
     description:
       "Simplify your message and make your audience understand what you do.",
-    image: "/images/bxfilms-2-1024x515.jpg",
+    image: "images/bxfilms-2-1024x515.jpg",
   },
 ];
 

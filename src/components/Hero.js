@@ -29,15 +29,15 @@ const Hero = () => {
       </div>
       <div className={`flex flex-col justify-center items-center h-full w-full ${isBlurred ? "lg:blur-sm" : ' lg:blur-none'} blur-sm transition-all duration-500 ease-in-out gap-20`}>
       <div className='flex items-start justify-between w-[70%]'>
-  <img src="/images/bx-logo.webp" alt="logo" className='w-20' />
+  <img src="images/bx-logo.webp" alt="logo" className='w-20' />
   <button className='text-pink-600 hover:bg-pink-600 hover:text-white cursor-pointer w-40 p-5 transition-all duration-150'>
     Go To End
   </button>
 </div>
 
         <div className=' border-amber-50 h-1/3 w-full flex justify-around items-start gap-3'>
-          <HorizontalCard image={"/images/bxfilms-1-2.jpg"} text={{ title: "AppLovin", description: "BX Films teamed up with the inimitable Tyler McPherron (Director of Photography) and the talented Robby Klein (Photography)" }} />
-          <HorizontalCard image={"/images/bxfilms-1-3.jpg"} text={{ title: "AppLovin", description: "BX Films teamed up with the inimitable Tyler McPherron (Director of Photography) and the talented Robby Klein (Photography)" }} />
+          <HorizontalCard image={"images/bxfilms-1-2.jpg"} text={{ title: "AppLovin", description: "BX Films teamed up with the inimitable Tyler McPherron (Director of Photography) and the talented Robby Klein (Photography)" }} />
+          <HorizontalCard image={"images/bxfilms-1-3.jpg"} text={{ title: "AppLovin", description: "BX Films teamed up with the inimitable Tyler McPherron (Director of Photography) and the talented Robby Klein (Photography)" }} />
         </div>
 
 
@@ -46,7 +46,7 @@ const Hero = () => {
           {/* First Card - move up on sm/md */}
           <div className="sm:-translate-y-3 md:-translate-y-4 lg:translate-y-0 transition-transform duration-300">
             <VerticalCard
-              image={"/images/bxfilms-1-1.jpg"}
+              image={"images/bxfilms-1-1.jpg"}
               text={{
                 title: "AppLovin",
                 description:
@@ -57,7 +57,7 @@ const Hero = () => {
 
           {/* Middle Card - no transform */}
           <HorizontalCard
-            image={"/images/bxfilms-1-4.jpg"}
+            image={"images/bxfilms-1-4.jpg"}
             text={{
               title: "AppLovin",
               description:
@@ -69,7 +69,7 @@ const Hero = () => {
           {/* Last Card - move down on sm/md */}
           <div className="sm:translate-y-3 md:translate-y-4 lg:translate-y-0 transition-transform duration-300">
             <HorizontalCard
-              image={"/images/bxfilms-1-5-768x477.jpg"}
+              image={"images/bxfilms-1-5-768x477.jpg"}
               text={{
                 title: "AppLovin",
                 description:
