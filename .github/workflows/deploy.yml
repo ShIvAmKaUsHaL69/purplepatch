@@ -21,5 +21,8 @@ jobs:
             git pull
             npm run build
             cd out
+            # Remove old build artifacts from destination
+            rm -rf ../../404 ../../404.html ../../images ../../_next ../../*.html ../../*.txt ../../*.json ../../*.ico
+            # Move new build files to destination
             mv * ../../
 
