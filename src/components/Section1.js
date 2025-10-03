@@ -22,7 +22,7 @@ export default function PortfolioSection() {
             <div className="w-full max-w-[1200px] flex flex-col lg:flex-row items-center justify-center relative">
 
                 {/* Text */}
-                <h1 className="font-bold text-5xl sm:text-5xl lg:text-7xl text-center lg:text-center lg:w-[70%] z-10">
+                <h1 className="font-bold text-5xl sm:text-5xl lg:text-5xl xl:text-7xl  text-center lg:text-center lg:w-[90%] xl:w-full z-10">
                     We’re not going to show you <span className="italic">our portfolio</span>
                     <span className="text-pink-600">.</span>
                 </h1>
@@ -84,14 +84,16 @@ export default function PortfolioSection() {
                     className="
                                 w-[300px] 
                                 sm:w-[350px] 
-                                lg:w-[35%] 
+                                md:w-[500px] 
+                                lg:w-[45%] 
+                                xl:w-[35%] 
                                 mt-10 
                                 lg:mt-0 
                                 lg:absolute 
                                 lg:left-[60%] 
                                 translate-y-[-200px] 
                                 
-                                md:translate-y-[-150px] 
+                                md:translate-y-[-250px] 
                                 lg:translate-y-0
                                 
                             "
@@ -104,7 +106,7 @@ export default function PortfolioSection() {
             <div className="w-full max-w-[1200px] flex flex-col lg:flex-row-reverse items-center justify-center relative">
 
                 {/* Text */}
-                <h1 className="font-bold text-5xl sm:text-5xl lg:text-7xl text-center lg:text-center lg:w-[80%] lg:translate-x-20 z-10">
+                <h1 className="font-bold text-5xl sm:text-5xl lg:text-5xl xl:text-7xl  text-center lg:text-center lg:w-[90%] xl:w-full lg:translate-x-20 z-10">
                     We’re not going to show you <span className="italic">our portfolio</span>
                     <span className="text-pink-600">.</span>
                 </h1>
@@ -164,13 +166,15 @@ export default function PortfolioSection() {
                     className="
                         w-[300px] 
                         sm:w-[350px] 
-                        lg:w-[35%] 
+                        md:w-[500px] 
+                        lg:w-[45%] 
+                        xl:w-[35%] 
                         mt-10 
                         lg:mt-0 
                         lg:absolute 
                         lg:left-0 
                         translate-y-[-200px]
-                        md:translate-y-[-150px] 
+                        md:translate-y-[-250px] 
                         lg:translate-y-0
                         "
                     style={{ rotate }}

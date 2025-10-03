@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const Section2 = () => {
-  const fullText = "Everyone has those. And it’s not really what you are looking for.";
+  const fullText = "At Purple Patch, we turn vision into impact. By understanding our clients inside out, we create videos and photography that are timeless, memorable, and boundary pushing.";
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -33,9 +33,9 @@ const Section2 = () => {
   }, [index, isDeleting]);
 
   return (
-    <div className="lg:h-[70vh] h-[50vh] w-full bg-pink-600 flex items-center justify-center">
+    <div className="lg:h-[90vh] h-[65vh] w-full bg-pink-600 flex items-center justify-center">
       <motion.h1
-        className="text-white text-5xl lg:text-8xl font-bold text-center w-full lg:w-[55vw]"
+        className="text-white text-4xl lg:text-6xl xl:text-7xl font-bold text-center w-full xl:w-[70vw]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}

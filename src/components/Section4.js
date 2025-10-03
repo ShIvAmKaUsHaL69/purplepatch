@@ -56,24 +56,35 @@ export default function Section4() {
       ref={containerRef}
       className="flex flex-col lg:flex-row lg:h-[20vh] w-full items-center justify-center gap-6 lg:gap-[10vh] px-4 py-6 mb-20"
     >
-      <div ref={leftRef} className="w-full lg:w-[20%]">
-        <h4 className="text-xl sm:text-2xl lg:text-3xl font-bold leading-tight">
-          You want a killer strategy for a video you’ll love
+      <div ref={leftRef} className="w-full lg:w-[28%]">
+        <h4 className="text-xl sm:text-2xl lg:text-2xl font-bold leading-tight">
+          Wedding & Event Planners
+
+<br/>ASK: Tips, contacts, and collaboration opportunities for organizing weddings and events.
+
+<br/>GIVE: Expertise, ideas, or support in event planning and execution.
           <span className="text-pink-600">.</span>
         </h4>
       </div>
 
-      <div ref={middleRef} className="w-full lg:w-[20%]">
-        <h4 className="text-xl sm:text-2xl lg:text-3xl font-bold leading-tight">
-          You want collaboration through the entire process
+      <div ref={middleRef} className="w-full lg:w-[28%]">
+        <h4 className="text-xl sm:text-2xl lg:text-2xl font-bold leading-tight">
+         Corporate HR (TATA)
+
+<br/>ASK: Job openings, referrals, or insights about corporate roles and hiring.
+
+<br/>GIVE: Skills, experience, and contributions that can add value to the organization.
           <span className="text-pink-600">.</span>
         </h4>
       </div>
 
-      <div ref={rightRef} className="w-full lg:w-[20%]">
-        <h4 className="text-xl sm:text-2xl lg:text-3xl font-bold leading-tight">
-          You want people to fall head over heels for your brand, your product,
-          your… thing<span className="text-pink-600">.</span>
+      <div ref={rightRef} className="w-full lg:w-[28%]">
+        <h4 className="text-xl sm:text-2xl lg:text-xl font-bold leading-tight">
+         Production & Fashion Contacts (Vishesh Films, Venzo, The Quarry, Fashion & Jewelry Designers)
+
+<br/>ASK: Opportunities for collaboration, projects, or creative partnerships.
+
+<br/>GIVE: Creative services, production support, or design expertise.<span className="text-pink-600">.</span>
         </h4>
       </div>
     </div>

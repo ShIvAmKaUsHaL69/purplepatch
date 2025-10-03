@@ -7,24 +7,24 @@ import Image from "next/image";
 // Items array
 const items = [
   {
-    title: "WE DO CONCEPTS.",
+    title: "REVIVING KHELO INDIA.",
     description:
-      "We do concept to completion, so that we’re tracking with you from start to finish",
-    image: "images/bxfilms-7.jpg",
+      "We created the official National Games 2023 film, presented to PM Narendra Modi and Minister Anurag Thakur. Its impact led to the revival of Khelo India Youth Games after 14 years, which we proudly captured in Chennai in 2024.",
+    image: "branding/purple/img-4.png",
     direction: "rightToLeft",
   },
   {
-    title: "WE DO BRAND.",
+    title: "LEGACY WITH TATA.",
     description:
-      "We do brand, product, and documentary-style videos to tell your best story the best way",
-    image: "images/bxfilms-8.jpg",
+      "For four years, we streamlined and archived AGM and meeting media for Tata Trusts & Sons. This system enabled the creation of a short documentary on Shri Ratan Tata’s life, reflecting both trust and sensitivity in handling legacy.",
+    image: "branding/purple/img-9.png",
     direction: "leftToRight",
   },
   {
-    title: "WE’RE EXPERTS.",
+    title: "HOPE IN MANIPUR",
     description:
-      "We’re experts at live-action and animation, so your story can be told in whatever style will help it thrive.",
-    image: "images/bxfilms-9.jpg",
+      "Under the leadership of the Indian Army’s Assam Rifles, we created a documentary for the Prime Minister’s Office, capturing ground realities, challenges, and solutions while mapping potential sites for schools, hospitals, and housing.",
+    image: "branding/purple/img-5.png",
     direction: "rightToLeft",
   },
 ];
@@ -56,27 +56,27 @@ function ScrollAnimatedItem({ item, index }) {
   return (
     <div
       ref={sectionRef}
-      className={`flex flex-col md:w-full md:flex-row items-center justify-center gap-10 px-6 max-w-7xl mx-auto ${
+      className={`flex flex-col md:w-full md:flex-row items-start justify-start md:items-center md:justify-center gap-10 px-6 max-w-7xl mx-auto ${
         index % 2 === 1 ? "md:flex-row-reverse" : ""
       }`}
     >
       {/* Text */}
-      <div className="w-full md:w-1/2 text-center ">
+      <div className="w-full md:w-1/2 text-center">
         {isMobile ? (
-          <h2 className="text-4xl sm:text-6xl md:text-6xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4">
             {titleText}
             <span className="text-pink-500">.</span>
           </h2>
         ) : (
           <motion.h2
             style={{ x }}
-            className="lg:text-8xl whitespace-nowrap font-bold mb-4 md:text-6xl"
+            className="lg:text-8xl whitespace-nowrap font-bold mb-4 sm:text-2xl md:text-6xl"
           >
             {titleText}
             <span className="text-pink-500">.</span>
           </motion.h2>
         )}
-        <p className="text-lg sm:text-xl font-bold text-gray-300 max-w-lg mx-auto md:mx-0">
+        <p className="text-sm sm:text-lg md:font-bold text-gray-300 max-w-lg mx-auto md:mx-0">
           {item.description}
         </p>
       </div>

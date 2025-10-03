@@ -31,7 +31,7 @@ function Section3() {
       </div>
       <div className="md:-translate-y-[14vw] -translate-y-[23vw]">
 
-      <h1 className="uppercase sm:leading-[-200px]  text-[15vw] md:text-[10vw] font-bold text-center ">This Is <br/>about you<span className="text-pink-600">.</span></h1>
+      <h1 className="uppercase sm:leading-[-200px]  text-[15vw] md:text-[10vw] font-extrabold text-center ">This Is <br/>about you<span className="text-pink-600">.</span></h1>
       </div>
 
 

@@ -54,7 +54,7 @@ useEffect(() => {
   };
 
   return (
-    <div className="relative overflow-hidden flex justify-center items-center lg:h-[50vh] md:h-[70vh] h-[55vh] w-full py-10 mt-[10vh]">
+    <div className="relative overflow-hidden flex justify-center items-center lg:h-[50vh] md:h-[50vh] h-[55vh] w-full py-10 md:mt-[10vh] mt-0">
       <div className="w-full overflow-x-auto md:overflow-hidden">
         <motion.div
           className="flex"
@@ -75,7 +75,6 @@ useEffect(() => {
                 className={`w-full h-full object-cover transition-all hover:grayscale-0 duration-150 ${
                   tapped[index] ? "grayscale-0" : "grayscale"
                 }`}
-                priority
               />
             </div>
           ))}
