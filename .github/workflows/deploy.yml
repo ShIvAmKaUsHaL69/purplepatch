@@ -19,6 +19,7 @@ jobs:
           script: |
             cd public_html/purple/repo
             git pull
+            npm install
             npm run build
             cd out
             # Remove old build artifacts from destination
