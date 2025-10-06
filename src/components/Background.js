@@ -149,7 +149,7 @@ export default function Background() {
        font-bold leading-[1] tracking-[-0.03em] sm:tracking-[-0.04em] md:tracking-[-0.05em]
        text-white whitespace-nowrap box-border"
                         >
-                            Our Background purple
+                            Our Background
                         </h1>
 
                         <motion.ul
