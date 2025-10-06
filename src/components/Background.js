@@ -131,7 +131,7 @@ export default function Background() {
                         {cardData.map((card, index) => (
                             <div
                                 key={index}
-                                className="card bg-purple-400 p-6 rounded-2xl shadow-xl w-72 h-62 md:w-96 md:h-60 mx-3 flex-shrink-0 flex items-center justify-center"
+                                className="card bg-purple-400 p-6 shadow-xl w-72 h-62 md:w-96 md:h-60 mx-3 flex-shrink-0 flex items-center justify-center"
                             >
                                 <img src={card.icon} alt={`icon-${index}`} className="max-w-full max-h-full object-contain" />
                             </div>
@@ -149,7 +149,7 @@ export default function Background() {
        font-bold leading-[1] tracking-[-0.03em] sm:tracking-[-0.04em] md:tracking-[-0.05em]
        text-white whitespace-nowrap box-border"
                         >
-                            Our Background
+                            Our Background purple
                         </h1>
 
                         <motion.ul
